@@ -1,0 +1,79 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Times New Roman";
+}
+
+.task-title-main {
+  font-size: 4rem;
+  margin: 20px 0;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input-container input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #850a0a;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 300px;
+}
+
+.input-container button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #333;
+  color: rgb(125, 121, 121);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.task-list {
+  width: 100%;
+  max-width: 600px;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #d3c0c0;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.task-title {
+  flex-grow: 1;
+}
+
+.task-buttons button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.task-buttons button:first-of-type {
+  background-color: #28a745;
+  color: white;
+}
+
+.task-buttons button:nth-of-type(2) {
+  background-color: #ffc107;
+  color: white;
+}
+
+.task-buttons button:last-of-type {
+  background-color: #dc3545;
+  color: white;
+}
